@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B95987396B64121412515891 /* Pods_IGLottieProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2752F2E5AF48A000F236E52C /* Pods_IGLottieProgress.framework */; };
+		CD0F7E1E263F78D9001531A2 /* ball-spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = CD0F7E1D263F78D9001531A2 /* ball-spinner.json */; };
+		CD4EEB47263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json in Resources */ = {isa = PBXBuildFile; fileRef = CD4EEB46263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json */; };
 		CD85E5B1263DB970005E0ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5B0263DB970005E0ABA /* AppDelegate.swift */; };
 		CD85E5B3263DB970005E0ABA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */; };
 		CD85E5B5263DB970005E0ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5B4263DB970005E0ABA /* ViewController.swift */; };
 		CD85E5B8263DB970005E0ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5B6263DB970005E0ABA /* Main.storyboard */; };
 		CD85E5BA263DB978005E0ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5B9263DB978005E0ABA /* Assets.xcassets */; };
 		CD85E5BD263DB978005E0ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5BB263DB978005E0ABA /* LaunchScreen.storyboard */; };
+		CD85E5C7263DBEEA005E0ABA /* AlertLottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5C6263DBEEA005E0ABA /* AlertLottie.storyboard */; };
+		CD85E5CA263DBF8B005E0ABA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5C9263DBF8B005E0ABA /* Config.swift */; };
+		CD85E5CD263DC087005E0ABA /* IGLottieProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5CC263DC087005E0ABA /* IGLottieProgress.swift */; };
+		CD85E5CF263F0356005E0ABA /* AlertLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5CE263F0356005E0ABA /* AlertLottieViewController.swift */; };
+		CD85E5D2263F05B6005E0ABA /* Marker.json in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5D1263F05B6005E0ABA /* Marker.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		236E5FD8BE437565165C7F7B /* Pods-IGLottieProgress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGLottieProgress.debug.xcconfig"; path = "Target Support Files/Pods-IGLottieProgress/Pods-IGLottieProgress.debug.xcconfig"; sourceTree = "<group>"; };
+		2752F2E5AF48A000F236E52C /* Pods_IGLottieProgress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGLottieProgress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA33584EBBBB6C6E16BFE18 /* Pods-IGLottieProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGLottieProgress.release.xcconfig"; path = "Target Support Files/Pods-IGLottieProgress/Pods-IGLottieProgress.release.xcconfig"; sourceTree = "<group>"; };
+		CD0F7E1D263F78D9001531A2 /* ball-spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ball-spinner.json"; sourceTree = "<group>"; };
+		CD4EEB46263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "58661-delivery-truck-loading-exporting.json"; sourceTree = "<group>"; };
 		CD85E5AD263DB970005E0ABA /* IGLottieProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGLottieProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD85E5B0263DB970005E0ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,11 @@
 		CD85E5B9263DB978005E0ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD85E5BC263DB978005E0ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD85E5BE263DB978005E0ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD85E5C6263DBEEA005E0ABA /* AlertLottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertLottie.storyboard; sourceTree = "<group>"; };
+		CD85E5C9263DBF8B005E0ABA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		CD85E5CC263DC087005E0ABA /* IGLottieProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGLottieProgress.swift; sourceTree = "<group>"; };
+		CD85E5CE263F0356005E0ABA /* AlertLottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLottieViewController.swift; sourceTree = "<group>"; };
+		CD85E5D1263F05B6005E0ABA /* Marker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Marker.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95987396B64121412515891 /* Pods_IGLottieProgress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F4ACD6DF61C7C635A4AA469 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				236E5FD8BE437565165C7F7B /* Pods-IGLottieProgress.debug.xcconfig */,
+				2BA33584EBBBB6C6E16BFE18 /* Pods-IGLottieProgress.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CD85E5A4263DB970005E0ABA = {
 			isa = PBXGroup;
 			children = (
 				CD85E5AF263DB970005E0ABA /* IGLottieProgress */,
 				CD85E5AE263DB970005E0ABA /* Products */,
+				1F4ACD6DF61C7C635A4AA469 /* Pods */,
+				E6E3A3E7E0D398D3E866D7CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +86,14 @@
 		CD85E5AF263DB970005E0ABA /* IGLottieProgress */ = {
 			isa = PBXGroup;
 			children = (
+				CD4EEB46263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json */,
+				CD85E5D1263F05B6005E0ABA /* Marker.json */,
+				CD0F7E1D263F78D9001531A2 /* ball-spinner.json */,
+				CD85E5D0263F0533005E0ABA /* Assets */,
+				CD85E5CB263DC059005E0ABA /* Main */,
+				CD85E5C8263DBF55005E0ABA /* Interface */,
+				CD85E5C5263DBECA005E0ABA /* Models */,
+				CD85E5C4263DBEBA005E0ABA /* Helpers */,
 				CD85E5B0263DB970005E0ABA /* AppDelegate.swift */,
 				CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */,
 				CD85E5B4263DB970005E0ABA /* ViewController.swift */,
@@ -63,8 +101,55 @@
 				CD85E5B9263DB978005E0ABA /* Assets.xcassets */,
 				CD85E5BB263DB978005E0ABA /* LaunchScreen.storyboard */,
 				CD85E5BE263DB978005E0ABA /* Info.plist */,
+				CD85E5C6263DBEEA005E0ABA /* AlertLottie.storyboard */,
+				CD85E5CE263F0356005E0ABA /* AlertLottieViewController.swift */,
 			);
 			path = IGLottieProgress;
+			sourceTree = "<group>";
+		};
+		CD85E5C4263DBEBA005E0ABA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CD85E5C5263DBECA005E0ABA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD85E5C9263DBF8B005E0ABA /* Config.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD85E5C8263DBF55005E0ABA /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		CD85E5CB263DC059005E0ABA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CD85E5CC263DC087005E0ABA /* IGLottieProgress.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CD85E5D0263F0533005E0ABA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E6E3A3E7E0D398D3E866D7CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2752F2E5AF48A000F236E52C /* Pods_IGLottieProgress.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD85E5C1263DB978005E0ABA /* Build configuration list for PBXNativeTarget "IGLottieProgress" */;
 			buildPhases = (
+				1C0981C2CFDF23185E0C5BC7 /* [CP] Check Pods Manifest.lock */,
 				CD85E5A9263DB970005E0ABA /* Sources */,
 				CD85E5AA263DB970005E0ABA /* Frameworks */,
 				CD85E5AB263DB970005E0ABA /* Resources */,
+				DCC03F14494684B0166F7560 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +211,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4EEB47263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json in Resources */,
+				CD85E5D2263F05B6005E0ABA /* Marker.json in Resources */,
+				CD0F7E1E263F78D9001531A2 /* ball-spinner.json in Resources */,
 				CD85E5BD263DB978005E0ABA /* LaunchScreen.storyboard in Resources */,
 				CD85E5BA263DB978005E0ABA /* Assets.xcassets in Resources */,
+				CD85E5C7263DBEEA005E0ABA /* AlertLottie.storyboard in Resources */,
 				CD85E5B8263DB970005E0ABA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0981C2CFDF23185E0C5BC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGLottieProgress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC03F14494684B0166F7560 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGLottieProgress/Pods-IGLottieProgress-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IGLottieProgress/Pods-IGLottieProgress-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IGLottieProgress/Pods-IGLottieProgress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CD85E5A9263DB970005E0ABA /* Sources */ = {
@@ -138,7 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD85E5B5263DB970005E0ABA /* ViewController.swift in Sources */,
+				CD85E5CA263DBF8B005E0ABA /* Config.swift in Sources */,
 				CD85E5B1263DB970005E0ABA /* AppDelegate.swift in Sources */,
+				CD85E5CD263DC087005E0ABA /* IGLottieProgress.swift in Sources */,
+				CD85E5CF263F0356005E0ABA /* AlertLottieViewController.swift in Sources */,
 				CD85E5B3263DB970005E0ABA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +419,7 @@
 		};
 		CD85E5C2263DB978005E0ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 236E5FD8BE437565165C7F7B /* Pods-IGLottieProgress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +439,7 @@
 		};
 		CD85E5C3263DB978005E0ABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA33584EBBBB6C6E16BFE18 /* Pods-IGLottieProgress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
