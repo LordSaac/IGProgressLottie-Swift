@@ -7,8 +7,8 @@ s.platform     = :ios, "9.0"
 s.ios.deployment_target = '14.0'
 s.name = "IGLottieProgress"
 s.summary = "Use a simple progress using lottie resources."
-s.requires_arc = true
-s.version = "0.0.1"
+
+s.version = "0.0.3"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "J Gutiérrez" => "jose19.26@hotmail.com" }
 s.homepage = "https://github.com/LordSaac/IGProgress"

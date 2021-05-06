@@ -9,12 +9,12 @@ import Foundation
 import UIKit
 import Lottie
 
-class IGLottieProgress {
+final public class IGLottieProgress {
     
-    public static var setConfig = Config()
-    public static var controller: UIViewController?
-    public static var alertLottie: AlertLottieViewController?
-    public static var control = false
+     static var setConfig = Config()
+     static var controller: UIViewController?
+     static var alertLottie: AlertLottieViewController?
+     static var control = false
     
      init(controller: UIViewController){
         IGLottieProgress.controller = controller
@@ -51,22 +51,22 @@ class IGLottieProgress {
     }
 }
 
-extension UIViewController {
+ extension UIViewController {
     
-    func IGPstartLoading(config: Config) {
+      func IGPstartLoading(config: Config) {
         
         IGLottieProgress.controller = self
         IGLottieProgress.setConfig = config
         
         IGLottieProgress.startLoading()
         
-   }
+      }
     
-     func IGPfinishLoading(){
+      func IGPfinishLoading(){
         
         IGLottieProgress.finishLoading()
 
-    }
+      }
 }
 
 
