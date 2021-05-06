@@ -8,4 +8,5 @@ target 'IGLottieProgress' do
   # Pods for IGLottieProgress
   pod 'lottie-ios'
 
+
 end
