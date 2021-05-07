@@ -10,36 +10,36 @@ import UIKit
 import Lottie
 
 final public class IGProgress {
-    
-    public struct Config {
-
-        var timer: Int = 0
-        var message: String = "Please wait"
-        var sizeTextMessage: CGFloat = 18.0
-        var fontColorMessage: UIColor = .white
-        var urlLottieJson: String = "58661-delivery-truck-loading-exporting"
-        var srcLottieJson: Bundle?
-        var width: Int = 150
-        var hight: Int = 125
-        
-    //    var cancelButton: Bool = false
-    //    var cancelButtonWidth: Int = 50
-    //    var cancelButtonHight: Int = 55
-    //    var cancelButtonAlpha: Float = 0.5
-    //    var controller: UIViewController?
-        
-    }
-    
+  
     public static var setConfig: Config?
     public static var controller: UIViewController?
            static var alertLottie: AlertLottieViewController?
     public static var control = false
     
+    public struct Config {
+
+       public var timer: Int = 0
+        public  var message: String = "Please wait"
+        public var sizeTextMessage: CGFloat = 18.0
+        public var fontColorMessage: UIColor = .white
+        public var urlLottieJson: String = "58661-delivery-truck-loading-exporting"
+        public var srcLottieJson: Bundle?
+        public var width: Int = 150
+        public  var hight: Int = 125
+        
+    //  public var cancelButton: Bool = false
+    //  public var cancelButtonWidth: Int = 50
+    //  public var cancelButtonHight: Int = 55
+    //  public var cancelButtonAlpha: Float = 0.5
+    //  public var controller: UIViewController?
+        
+    }
+    
     public  init(controller: UIViewController){
         IGProgress.controller = controller
     }
     
-    init(controller: UIViewController,config: Config) {
+   public init(controller: UIViewController,config: Config) {
         IGProgress.setConfig = config;
         IGProgress.controller = controller
     }
@@ -57,9 +57,7 @@ final public class IGProgress {
             IGProgress.alertLottie!.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
             IGProgress.controller?.present(IGProgress.alertLottie!, animated: true, completion: nil)
         }
-
-        
-   }
+    }
    
     
     public static  func finishLoading(){
