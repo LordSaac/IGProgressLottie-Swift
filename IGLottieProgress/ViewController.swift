@@ -16,8 +16,8 @@ class ViewController: UIViewController {
 
     @IBAction func touch(_ sender: Any) {
        
-        self.IGPstartLoading(config: Config(urlLottieJson:"ball-spinner"))
-        self.IGPstartLoading(config: Config(urlLottieJson:"ball-spinner"))
+        self.IGPstartLoading(config:IGProgress.Config(urlLottieJson:"ball-spinner"))
+        self.IGPstartLoading(config: IGProgress.Config(urlLottieJson:"ball-spinner"))
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.IGPfinishLoading()
         }
