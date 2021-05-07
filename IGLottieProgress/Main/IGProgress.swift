@@ -11,12 +11,12 @@ import Lottie
 
 final public class IGProgress {
     
-     static var setConfig = Config()
-     static var controller: UIViewController?
-     static var alertLottie: AlertLottieViewController?
-     static var control = false
+    static var setConfig: Config?
+    static var controller: UIViewController?
+    static var alertLottie: AlertLottieViewController?
+    static var control = false
     
-     init(controller: UIViewController){
+    public  init(controller: UIViewController){
         IGProgress.controller = controller
     }
     

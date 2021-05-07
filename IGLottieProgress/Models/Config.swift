@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct Config {
+public struct Config {
 
     var timer: Int = 0
     var message: String = "Please wait"
