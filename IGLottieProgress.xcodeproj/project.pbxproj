@@ -95,6 +95,7 @@
 				CD85E5C5263DBECA005E0ABA /* Models */,
 				CD85E5C4263DBEBA005E0ABA /* Helpers */,
 				CD85E5B0263DB970005E0ABA /* AppDelegate.swift */,
+				CD85E5C9263DBF8B005E0ABA /* Config.swift */,
 				CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */,
 				CD85E5B4263DB970005E0ABA /* ViewController.swift */,
 				CD85E5B6263DB970005E0ABA /* Main.storyboard */,
@@ -117,7 +118,6 @@
 		CD85E5C5263DBECA005E0ABA /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CD85E5C9263DBF8B005E0ABA /* Config.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
