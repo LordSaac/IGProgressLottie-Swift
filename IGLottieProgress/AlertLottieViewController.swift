@@ -11,7 +11,7 @@ import Lottie
 class AlertLottieViewController: UIViewController {
 
     private var animationView: AnimationView?
-    public var config: IGProgress.Config?
+    public var config: IGConfig?
     
     @IBOutlet weak var content: UIView!
     @IBOutlet weak var sms: UILabel!
@@ -31,7 +31,6 @@ class AlertLottieViewController: UIViewController {
         return
     }
 
- 
       self.sms.text = config?.message
       self.sms.font = self.sms.font.withSize(self.config!.sizeTextMessage)
       self.sms.textColor = self.config?.fontColorMessage
@@ -39,7 +38,6 @@ class AlertLottieViewController: UIViewController {
       self.content.bounds.size.height =  CGFloat(self.config!.hight)
       self.content.bounds.size.width =  CGFloat(self.config!.width)
         
-     
       animationView = AnimationView()
       // 2. Start AnimationView with animation name (without extension)
       animationView?.animation = Animation.filepath(myFile)

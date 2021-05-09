@@ -18,7 +18,6 @@
 		CD85E5BA263DB978005E0ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5B9263DB978005E0ABA /* Assets.xcassets */; };
 		CD85E5BD263DB978005E0ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5BB263DB978005E0ABA /* LaunchScreen.storyboard */; };
 		CD85E5C7263DBEEA005E0ABA /* AlertLottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5C6263DBEEA005E0ABA /* AlertLottie.storyboard */; };
-		CD85E5CA263DBF8B005E0ABA /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5C9263DBF8B005E0ABA /* Config.swift */; };
 		CD85E5CF263F0356005E0ABA /* AlertLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5CE263F0356005E0ABA /* AlertLottieViewController.swift */; };
 		CD85E5D2263F05B6005E0ABA /* Marker.json in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5D1263F05B6005E0ABA /* Marker.json */; };
 /* End PBXBuildFile section */
@@ -39,7 +38,6 @@
 		CD85E5BC263DB978005E0ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD85E5BE263DB978005E0ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD85E5C6263DBEEA005E0ABA /* AlertLottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertLottie.storyboard; sourceTree = "<group>"; };
-		CD85E5C9263DBF8B005E0ABA /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		CD85E5CE263F0356005E0ABA /* AlertLottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLottieViewController.swift; sourceTree = "<group>"; };
 		CD85E5D1263F05B6005E0ABA /* Marker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Marker.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +93,6 @@
 				CD85E5C5263DBECA005E0ABA /* Models */,
 				CD85E5C4263DBEBA005E0ABA /* Helpers */,
 				CD85E5B0263DB970005E0ABA /* AppDelegate.swift */,
-				CD85E5C9263DBF8B005E0ABA /* Config.swift */,
 				CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */,
 				CD85E5B4263DB970005E0ABA /* ViewController.swift */,
 				CD85E5B6263DB970005E0ABA /* Main.storyboard */,
@@ -272,7 +269,6 @@
 			files = (
 				CD0F7E40264493CE001531A2 /* IGProgress.swift in Sources */,
 				CD85E5B5263DB970005E0ABA /* ViewController.swift in Sources */,
-				CD85E5CA263DBF8B005E0ABA /* Config.swift in Sources */,
 				CD85E5B1263DB970005E0ABA /* AppDelegate.swift in Sources */,
 				CD85E5CF263F0356005E0ABA /* AlertLottieViewController.swift in Sources */,
 				CD85E5B3263DB970005E0ABA /* SceneDelegate.swift in Sources */,

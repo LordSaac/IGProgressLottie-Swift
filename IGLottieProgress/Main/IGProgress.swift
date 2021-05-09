@@ -10,38 +10,19 @@ import UIKit
 import Lottie
 
 
-open  class IGProgress {
+public class IGProgress {
   
-    public static var setConfig: IGProgress.Config?
+    public static var setConfig: IGConfig?
     public static var controller: UIViewController?
            static var alertLottie: AlertLottieViewController?
     public static var control = false
-    
-    public struct Config {
-
-        public var timer: Int = 0
-        public var message: String = "Please wait"
-        public var sizeTextMessage: CGFloat = 18.0
-        public var fontColorMessage: UIColor = .white
-        public var urlLottieJson: String = "58661-delivery-truck-loading-exporting"
-        public var srcLottieJson: Bundle?
-        public var width: Int = 150
-        public var hight: Int = 125
-        
-    //    var cancelButton: Bool = false
-    //    var cancelButtonWidth: Int = 50
-    //    var cancelButtonHight: Int = 55
-    //    var cancelButtonAlpha: Float = 0.5
-    //    var controller: UIViewController?
-        
-    }
 
 
    public init(controller: UIViewController){
         IGProgress.controller = controller
     }
     
-   public init(controller: UIViewController,config: Config) {
+   public init(controller: UIViewController,config: IGConfig) {
         IGProgress.setConfig = config;
         IGProgress.controller = controller
     }
@@ -73,7 +54,7 @@ open  class IGProgress {
 
  public extension UIViewController {
     
-    func IGPstartLoading(config: IGProgress.Config) {
+       func IGPstartLoading(config: IGConfig) {
         
         IGProgress.controller = self
         IGProgress.setConfig = config
@@ -87,6 +68,29 @@ open  class IGProgress {
         IGProgress.finishLoading()
 
       }
+}
+
+@frozen
+public struct IGConfig  {
+
+    public var timer: Int = 0
+    public var message: String = "Please wait"
+    public var sizeTextMessage: CGFloat = 18.0
+    public var fontColorMessage: UIColor = .white
+    public var urlLottieJson: String = "58661-delivery-truck-loading-exporting"
+    public var srcLottieJson: Bundle?
+    public var width: Int = 150
+    public var hight: Int = 125
+//    
+//    public init(){
+//        
+//    }
+//    var cancelButton: Bool = false
+//    var cancelButtonWidth: Int = 50
+//    var cancelButtonHight: Int = 55
+//    var cancelButtonAlpha: Float = 0.5
+//    var controller: UIViewController?
+    
 }
 
 
