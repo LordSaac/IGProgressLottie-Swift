@@ -93,6 +93,7 @@
 				CD85E5C5263DBECA005E0ABA /* Models */,
 				CD85E5C4263DBEBA005E0ABA /* Helpers */,
 				CD85E5B0263DB970005E0ABA /* AppDelegate.swift */,
+				CD0F7E3F264493CE001531A2 /* IGProgress.swift */,
 				CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */,
 				CD85E5B4263DB970005E0ABA /* ViewController.swift */,
 				CD85E5B6263DB970005E0ABA /* Main.storyboard */,
@@ -129,7 +130,6 @@
 		CD85E5CB263DC059005E0ABA /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				CD0F7E3F264493CE001531A2 /* IGProgress.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -426,6 +426,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ap.IGLottieProgress.IGLottieProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -446,6 +447,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ap.IGLottieProgress.IGLottieProgress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

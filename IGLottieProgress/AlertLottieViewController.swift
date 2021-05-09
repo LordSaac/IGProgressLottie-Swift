@@ -11,7 +11,7 @@ import Lottie
 class AlertLottieViewController: UIViewController {
 
     private var animationView: AnimationView?
-    public var config: IGParams?
+    public var config: IGConfig?
     
     @IBOutlet weak var content: UIView!
     @IBOutlet weak var sms: UILabel!

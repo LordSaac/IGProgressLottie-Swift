@@ -18,10 +18,11 @@ class ViewController: UIViewController {
 
     @IBAction func touch(_ sender: Any) {
        
-        self.IGPstartLoading(config: IGParams(urlLottieJson:"ball-spinner"))
+
+        self.IGPStartLoading(config: IGConfig(urlLottieJson:"ball-spinner"))
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-            self.IGPfinishLoading()
+            self.IGPFinishLoading()
         }
        
     }

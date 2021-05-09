@@ -12,7 +12,7 @@ import Lottie
 
 public class IGProgress {
   
-    public static var setConfig: IGParams?
+    public static var setConfig: IGConfig?
     public static var controller: UIViewController?
            static var alertLottie: AlertLottieViewController?
     public static var control = false
@@ -21,7 +21,7 @@ public class IGProgress {
         IGProgress.controller = controller
     }
     
-   public init(controller: UIViewController,config: IGParams) {
+   public init(controller: UIViewController,config: IGConfig) {
         IGProgress.setConfig = config;
         IGProgress.controller = controller
     }
@@ -53,7 +53,7 @@ public class IGProgress {
 
  public extension UIViewController {
     
-       func IGPstartLoading(config: IGParams) {
+       func IGPStartLoading(config: IGConfig) {
         
         IGProgress.controller = self
         IGProgress.setConfig = config
@@ -62,7 +62,7 @@ public class IGProgress {
         
       }
     
-      func IGPfinishLoading(){
+      func IGPFinishLoading(){
         
         IGProgress.finishLoading()
 
@@ -70,7 +70,7 @@ public class IGProgress {
 }
 
 
-public struct IGParams  {
+public struct IGConfig  {
 
     public var timer: Int = 0
     public var message: String = "Please wait"
@@ -80,7 +80,10 @@ public struct IGParams  {
     public var srcLottieJson: Bundle?
     public var width: Int = 150
     public var hight: Int = 125
-//    
+    
+  //  public init() {}
+
+//
 //    public init(){
 //
 //    }
@@ -89,8 +92,12 @@ public struct IGParams  {
 //    var cancelButtonHight: Int = 55
 //    var cancelButtonAlpha: Float = 0.5
 //    var controller: UIViewController?
-    
+//
+
 }
+
+
+
 
 
 
