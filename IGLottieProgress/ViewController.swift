@@ -12,12 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
 
     @IBAction func touch(_ sender: Any) {
        
-        self.IGPstartLoading(config: IGConfig(urlLottieJson:"ball-spinner"))
+        self.IGPstartLoading(config: IGParams(urlLottieJson:"ball-spinner"))
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.IGPfinishLoading()
