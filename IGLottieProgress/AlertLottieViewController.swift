@@ -58,7 +58,7 @@ class AlertLottieViewController: UIViewController {
         
         if( self.config!.timer  > 0){
             DispatchQueue.main.asyncAfter(deadline: .now() + DispatchTimeInterval.seconds(self.config!.timer)) {
-                self.dismiss(animated: true, completion: nil)
+                IGProgress.finishLoading()
             }
         }
     }

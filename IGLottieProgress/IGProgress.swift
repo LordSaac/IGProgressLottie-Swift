@@ -12,7 +12,7 @@ import Lottie
 
 public class IGProgress {
   
-    public static var setConfig: IGConfig?
+    public static var setConfig: IGConfig = IGConfig()
     public static var controller: UIViewController?
            static var alertLottie: AlertLottieViewController?
     public static var control = false
@@ -30,7 +30,10 @@ public class IGProgress {
         
         if(!control){
             
-            let storyboard = UIStoryboard(name: "AlertLottie", bundle: nil)
+            let storyboardBundle = Bundle(identifier: "org.cocoapods.IGLottieProgress")
+            
+            let storyboard = UIStoryboard(name: "AlertLottie", bundle: storyboardBundle)
+            
             IGProgress.control = true
             IGProgress.alertLottie = (storyboard.instantiateViewController(withIdentifier: "alertLottie") as! AlertLottieViewController)
         
