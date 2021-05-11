@@ -8,7 +8,7 @@ s.ios.deployment_target = '14.0'
 s.name = "IGLottieProgress"
 s.summary = "Use a simple progress using lottie resources."
 
-s.version = "0.2.0"
+s.version = "0.2.2"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "J Gutiérrez" => "jose19.26@hotmail.com" }
 s.homepage = "https://github.com/LordSaac/IGProgress"
@@ -18,5 +18,7 @@ s.source_files = "IGLottieProgress/**/*.{swift}"
 s.resources = "IGLottieProgress/**/*.{png,jpeg,jpg,storyboard,xib}"
 
 s.dependency 'lottie-ios'
+s.swift_versions = '5.0'
+s.ios.deployment_target = '14.5'
 
 end
