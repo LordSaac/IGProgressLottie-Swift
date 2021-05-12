@@ -30,7 +30,7 @@ Manager of progress using Lottie JSON,  simple implemetation for your project Xc
 
 
 
-#### StartLoading Whith  Method:  
+#### Start Progress:  
 
 ```swift
 self.IGPStartLoading(config: IGProgress.config)
@@ -43,7 +43,7 @@ self.IGPStartLoading(config: IGProgress.config)
 self.IGPFinishLoading()
 ```
 
-#### Table Options:  
+# Option table:  
 
 | Config | Type | Description |
 | --- | --- | --- |
@@ -85,10 +85,13 @@ pod 'IGLottieProgress'
 
 :star: Do you like library, give me a [star](https://github.com/LordSaac/ProgressLottieIGB)
 
-:raised_hands: Thanks! 
+:raised_hands: Thanks for you appreciation ! 
 
+# Android version:
 
-### Download more Animations:
+:eight_spoked_asterisk: Do you need Android Version for you project ?, check out here: https://github.com/LordSaac/ProgressLottieIGB
+
+# Download more Animations:
 
 See more animations here: https://www.lottiefiles.com/
 
