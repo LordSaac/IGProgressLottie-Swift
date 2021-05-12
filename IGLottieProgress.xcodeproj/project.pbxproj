@@ -10,7 +10,6 @@
 		B95987396B64121412515891 /* Pods_IGLottieProgress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2752F2E5AF48A000F236E52C /* Pods_IGLottieProgress.framework */; };
 		CD0F7E1E263F78D9001531A2 /* ball-spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = CD0F7E1D263F78D9001531A2 /* ball-spinner.json */; };
 		CD0F7E40264493CE001531A2 /* IGProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0F7E3F264493CE001531A2 /* IGProgress.swift */; };
-		CD4EEB47263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json in Resources */ = {isa = PBXBuildFile; fileRef = CD4EEB46263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json */; };
 		CD85E5B1263DB970005E0ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5B0263DB970005E0ABA /* AppDelegate.swift */; };
 		CD85E5B3263DB970005E0ABA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */; };
 		CD85E5B5263DB970005E0ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5B4263DB970005E0ABA /* ViewController.swift */; };
@@ -19,7 +18,10 @@
 		CD85E5BD263DB978005E0ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5BB263DB978005E0ABA /* LaunchScreen.storyboard */; };
 		CD85E5C7263DBEEA005E0ABA /* AlertLottie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5C6263DBEEA005E0ABA /* AlertLottie.storyboard */; };
 		CD85E5CF263F0356005E0ABA /* AlertLottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD85E5CE263F0356005E0ABA /* AlertLottieViewController.swift */; };
-		CD85E5D2263F05B6005E0ABA /* Marker.json in Resources */ = {isa = PBXBuildFile; fileRef = CD85E5D1263F05B6005E0ABA /* Marker.json */; };
+		CDE2512A264B639A00C56E2C /* everyting.json in Resources */ = {isa = PBXBuildFile; fileRef = CDE25127264B639A00C56E2C /* everyting.json */; };
+		CDE2512B264B639A00C56E2C /* cerebro.json in Resources */ = {isa = PBXBuildFile; fileRef = CDE25128264B639A00C56E2C /* cerebro.json */; };
+		CDE2512C264B639A00C56E2C /* planter.json in Resources */ = {isa = PBXBuildFile; fileRef = CDE25129264B639A00C56E2C /* planter.json */; };
+		CDE2512E264B647B00C56E2C /* meditation.json in Resources */ = {isa = PBXBuildFile; fileRef = CDE2512D264B647B00C56E2C /* meditation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +30,6 @@
 		2BA33584EBBBB6C6E16BFE18 /* Pods-IGLottieProgress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGLottieProgress.release.xcconfig"; path = "Target Support Files/Pods-IGLottieProgress/Pods-IGLottieProgress.release.xcconfig"; sourceTree = "<group>"; };
 		CD0F7E1D263F78D9001531A2 /* ball-spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "ball-spinner.json"; sourceTree = "<group>"; };
 		CD0F7E3F264493CE001531A2 /* IGProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGProgress.swift; sourceTree = "<group>"; };
-		CD4EEB46263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "58661-delivery-truck-loading-exporting.json"; sourceTree = "<group>"; };
 		CD85E5AD263DB970005E0ABA /* IGLottieProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGLottieProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD85E5B0263DB970005E0ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD85E5B2263DB970005E0ABA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +40,10 @@
 		CD85E5BE263DB978005E0ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD85E5C6263DBEEA005E0ABA /* AlertLottie.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AlertLottie.storyboard; sourceTree = "<group>"; };
 		CD85E5CE263F0356005E0ABA /* AlertLottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertLottieViewController.swift; sourceTree = "<group>"; };
-		CD85E5D1263F05B6005E0ABA /* Marker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Marker.json; sourceTree = "<group>"; };
+		CDE25127264B639A00C56E2C /* everyting.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = everyting.json; sourceTree = "<group>"; };
+		CDE25128264B639A00C56E2C /* cerebro.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cerebro.json; sourceTree = "<group>"; };
+		CDE25129264B639A00C56E2C /* planter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = planter.json; sourceTree = "<group>"; };
+		CDE2512D264B647B00C56E2C /* meditation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meditation.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,18 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CD0F7E43264A15F6001531A2 /* MyLottieJson */ = {
+			isa = PBXGroup;
+			children = (
+				CDE2512D264B647B00C56E2C /* meditation.json */,
+				CDE25128264B639A00C56E2C /* cerebro.json */,
+				CDE25127264B639A00C56E2C /* everyting.json */,
+				CDE25129264B639A00C56E2C /* planter.json */,
+				CD0F7E1D263F78D9001531A2 /* ball-spinner.json */,
+			);
+			path = MyLottieJson;
+			sourceTree = "<group>";
+		};
 		CD85E5A4263DB970005E0ABA = {
 			isa = PBXGroup;
 			children = (
@@ -84,9 +100,7 @@
 		CD85E5AF263DB970005E0ABA /* IGLottieProgress */ = {
 			isa = PBXGroup;
 			children = (
-				CD4EEB46263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json */,
-				CD85E5D1263F05B6005E0ABA /* Marker.json */,
-				CD0F7E1D263F78D9001531A2 /* ball-spinner.json */,
+				CD0F7E43264A15F6001531A2 /* MyLottieJson */,
 				CD85E5D0263F0533005E0ABA /* Assets */,
 				CD85E5CB263DC059005E0ABA /* Main */,
 				CD85E5C8263DBF55005E0ABA /* Interface */,
@@ -208,11 +222,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4EEB47263F51D0004EC1A6 /* 58661-delivery-truck-loading-exporting.json in Resources */,
-				CD85E5D2263F05B6005E0ABA /* Marker.json in Resources */,
+				CDE2512E264B647B00C56E2C /* meditation.json in Resources */,
 				CD0F7E1E263F78D9001531A2 /* ball-spinner.json in Resources */,
 				CD85E5BD263DB978005E0ABA /* LaunchScreen.storyboard in Resources */,
+				CDE2512C264B639A00C56E2C /* planter.json in Resources */,
 				CD85E5BA263DB978005E0ABA /* Assets.xcassets in Resources */,
+				CDE2512A264B639A00C56E2C /* everyting.json in Resources */,
+				CDE2512B264B639A00C56E2C /* cerebro.json in Resources */,
 				CD85E5C7263DBEEA005E0ABA /* AlertLottie.storyboard in Resources */,
 				CD85E5B8263DB970005E0ABA /* Main.storyboard in Resources */,
 			);

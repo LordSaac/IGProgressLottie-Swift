@@ -27,10 +27,12 @@ class AlertLottieViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         guard let myFile = Bundle.self.main.path(forResource: self.config?.urlLottieJson, ofType: "json") else {
-        print("lottie json not found!")
+        print("IGP lottie json not found!")
         return
-    }
+     }
 
+        self.view.backgroundColor = self.config?.backgroundColor.withAlphaComponent(self.config!.alpha)
+        
       self.sms.text = config?.message
       self.sms.font = self.sms.font.withSize(self.config!.sizeTextMessage)
       self.sms.textColor = self.config?.fontColorMessage
@@ -44,11 +46,11 @@ class AlertLottieViewController: UIViewController {
       animationView!.frame = self.content.bounds
       animationView?.backgroundColor = .clear
       // 3. Set animation content mode
-        animationView!.contentMode = .scaleAspectFit
+     animationView!.contentMode = self.config!.contentMode
       // 4. Set animation loop mode
       animationView!.loopMode = .loop
       // 5. Adjust animation speed
-      animationView!.animationSpeed = 0.5
+      animationView!.animationSpeed = self.config!.animationSpeed
       self.content.addSubview(animationView!)
       // 6. Play animation
       animationView!.play()
