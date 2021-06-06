@@ -81,15 +81,17 @@ pod 'IGLottieProgress'
 
 # Contribution
 
-:coffee: Oh, amazing, I buy you a  [coffee](https://paypal.me/LordSaac?locale.x=es_XC)
+You are most welcome to contribute to this project!
 
-:star: Do you like library, give me a [star](https://github.com/LordSaac/ProgressLottieIGB)
+*  Buy me a  [Coffee](https://paypal.me/LordSaac?locale.x=es_XC)  &nbsp; :coffee:
 
-:raised_hands: Thanks for you appreciation ! 
+*  Give me a [Star](https://github.com/LordSaac/ProgressLottieIGB) &nbsp; :star:
+
+
 
 # Android version:
 
-:eight_spoked_asterisk: Do you need Android Version for you project ?, check out here: https://github.com/LordSaac/ProgressLottieIGB
+:eight_spoked_asterisk: &nbsp; Do you need Android Version for you project ?, check out here: https://github.com/LordSaac/ProgressLottieIGB
 
 # Download more Animations:
 
