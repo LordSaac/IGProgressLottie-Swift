@@ -79,7 +79,7 @@ self.IGPFinishLoading()
 pod 'IGLottieProgress'
 ```
 
-
+# Contribution
 
 :coffee: Oh, amazing, I buy you a  [coffee](https://paypal.me/LordSaac?locale.x=es_XC)
 
